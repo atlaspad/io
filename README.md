@@ -1,4 +1,6 @@
 # Atlaspad Landing (MINA-Mythology Theme)
+![eclipse](https://github.com/AtlasPad/website-mina/assets/158029357/ff062b2c-5e34-4306-9817-998b4b7053b0)
+
 Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 
 * ```nvm install 21```
@@ -78,7 +80,8 @@ Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 ## [Özel] Tasklar
 * **Numaralar satır sayılarını belirtmektedir.**
 * Baturalp tüm görevlerde var.
-1- Genesis in **(yiğid)**
+
+1- Genesis içeride ;) **(yiğid)**
   
 2- Çoğu svg'ler ve backgroundlar brandkit'e göre değişecek **(berk, mehmet)**
 
