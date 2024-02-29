@@ -1,2 +1,2 @@
 # website-mina
-npm i
+npm i / npm run gulp
