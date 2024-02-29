@@ -1,0 +1,2 @@
+# website-mina
+npm i
