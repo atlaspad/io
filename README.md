@@ -77,33 +77,63 @@ Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 
 ## [Özel] Tasklar
 * **Numaralar satır sayılarını belirtmektedir.**
+* Baturalp tüm görevlerde var.
 1- Genesis in **(yiğid)**
+  
 2- Çoğu svg'ler ve backgroundlar brandkit'e göre değişecek **(berk, mehmet)**
+
 3- Girişe locomotive scroll ile gsap bir geçiş eklenecek **(osman nuri, yunus emre, berk ve mehmet)**
+
 19- Alt satır görseli değiştirilecek **(mehmet ve berk)**
-29- Favicon'lar düzenlenecek
+
+29- Favicon'lar düzenlenecek **(herkes)**
+
 67- Hero sectionda bulunan react logosu yerine atlas görseli mini şekilde koyulacak svg olacak **(mehmet)**
-87- Bir alt satırda medium açılınca güncel medium adresi eklenecek
-104- Proje bittikten sonra netlify'da docs güncellenecek
+
+87- Bir alt satırda medium açılınca güncel medium adresi eklenecek **(aşağıda görevin replikası var)**
+
+104- Proje bittikten sonra netlify'da docs güncellenecek **(batur)**
+
 225- "Over 1.5k repos on github, used by 4.8k open source projects" cümlesi değiştirilecek **(yunus emre)**
+
 239- Görmediğim hatalar ve değişiklikleri raporlama **(berk)**
+
 250- Alt satıra o(1)labs logosu eklenecek **(berk ve mehmet)**
+
 257- Alt satıra başka bir partnerlik ya da kaldırılacak **(mehmet)**
+
 382- Alt satırda bulunan featured yazısı sarı, bunun rengini brandkit'e göre değiştireceğiz. **(yiğid)**
+
 403- Aşağıda bulunan testimonials gibi örnek twitler bulup bunlar figmaya tek tek aynı kalitede atılacak ve görsel son kalitede indirilip burada ki örnek görseller yerine değiştirilecek twitter olması elzem değil çoğu platformdan bulabildiğinizi getirmeye çalışın bunun yerine belirli uygulamalar da var oradan fake gönderi de oluşturabilirsiniz **(mehmet)**
+
 452- O(1)labs'ın gradyan rengi değiştirilecek gradyan değil kendi brand'lerinde bulunan düz lacivert bir renk alacak. **(yunus emre)**
+
 455- Buradan yukarıda kalan arkaplan komple gradyan hareketli olacak bunun için baturla iletişime geç **(yunus emre ve osman nuri)**
+
 462- Bir alt satıra projede minayı neden tercih ettiğimizi tek bir cümleyle açıklayacak bir yazı yazamalısınız **(mehmet)**
+
 466- Alt satırda bulunan buton rengi gradyan olacak **(osman nuri)**
+
 520- Bu section'ın arkaplanı antik-mantik yunan ile ilgili olacak renkleri krem ve bej tonlarında olmalı ve her maddede bulunan tikler tik olmayacak maddeler bir sağ bir sola sıralanacak ve tik yerine orada bir dünya simgesi olacak (🌐) **(osman nuri)**
+
 558- Editor görselleri yerine bizim o1js kontratlarının görsellerini koymamız gerekiyor ikinci görsele de launchpad videosu üretilecek **(berk)**
+
 592- Homomorfik şifrelemeye dair bir cümle eklenecek ve solda bulunan "your balance görseli mina'nın ki oluşturulup değiştirilecek **(osman nuri, mehmet ve berk)**
+
 613- "Autorefresh on wallet and network change" bu cümle değişecek **(berk)**
-633- Chatbot ile ilgili bir video hazırlanacak mini olacak ve "sağa" yerleştirilecek  sola ise chatbot ile ilgili başlık ve yazı yazacak **(osman nuri ve berk)**
+
+633- Chatbot ile ilgili bir video hazırlanacak mini olacak ve "sağa" yerleştirilecek  sola ise
+chatbot ile ilgili başlık ve yazı yazacak **(osman nuri ve berk)**
+
 661- Linklerin tamamı değişecek ve bu kartlar feritin yaptığı animaysonlu kartlar ile değiştirilecek ama stilleri de dğeiştirilip minimalize edilecek **(yiğid)**
+
 736- Üst satır değişecek **(berk)**
+
 744- Section arkaplanı yine antik yunan vari olacak aynı renk tonlarında olacak yukarıda farklı bir taskta var **(mehmet, berk ve yunus emre)**
+
 747- Truefi logosu yerine atlas simgesi koyun scroll geldiğinde mor değil gradyan yeşil mavi renklerde tepki versin **(yunus emre ve berk)**
+
 820- Gradyan renkleri değiştirilecek ve arkaplan kaldırılacak **(yiğid,berk ve mehmet)**
+
 855- Atlaspad medium hesabı çağlar beye danışılarak açılacak ve linkler değiştirilecek **(berk)**
 1013- Bunları anla ve anlat **(osman nuri)**
