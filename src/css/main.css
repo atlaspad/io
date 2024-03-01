@@ -2850,13 +2850,10 @@ body.body--menu-open .header__burger-lines::after {
   color: #A4A4A4;
 }
 .integration__item::before {
-  content: "";
-  width: 24px;
-  height: 24px;
+  content: "🌐";
+  font-size: 24px;
+  margin-top: -4px;
   margin-right: 16px;
-  background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" color="rgb(112,211,116)"> <path fill-rule="evenodd" clip-rule="evenodd" d="M20 7.5975L9.90608 18L4 12.735L5.78463 11.0132L9.77205 14.5679L18.0857 6L20 7.5975Z" fill="currentColor"/> </svg>');
-  -webkit-background-size: 24px 24px;
-          background-size: 24px 24px;
 }
 @media (max-width: 740px) {
   .integration__item {
@@ -2872,6 +2869,10 @@ body.body--menu-open .header__burger-lines::after {
   .integration__item + .integration__item {
     margin-top: 18px;
   }
+}
+
+.integration__item:nth-of-type(even) {
+  margin-left: 64px;
 }
 
 .integration__media {
