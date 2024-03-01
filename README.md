@@ -123,7 +123,7 @@ npm run gulp
 
 462- Bir alt satıra projede minayı neden tercih ettiğimizi tek bir cümleyle açıklayacak bir yazı yazamalısınız **(mehmet)**
 
-466- Alt satırda bulunan buton rengi gradyan olacak **(osman nuri)**
+466- ~~Alt satırda bulunan buton rengi gradyan olacak **(osman nuri)**~~ ✅
 <img width="458" alt="Ekran Resmi 2024-03-01 10 55 13" src="https://github.com/AtlasPad/website-mina/assets/158029357/52012a63-70d9-40b0-80be-7947d3adc3da">
 
 520- Bu section'ın arkaplanı antik-mantik yunan ile ilgili olacak renkleri krem ve bej tonlarında olmalı ve her maddede bulunan tikler tik olmayacak maddeler bir sağ bir sola sıralanacak ve tik yerine orada bir dünya simgesi olacak (🌐) **(osman nuri)**
