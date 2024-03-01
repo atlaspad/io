@@ -1,5 +1,7 @@
 # Atlaspad Landing (MINA-Mythology Theme)
-▸Componentleri buradan çekeceksiniz: https://nextui.org/
+▸Componentleri buradan çekeceksiniz repo alt satırda: https://nextui.org/
+
+▸https://github.com/nextui-org/next-app-template
 
 Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 
