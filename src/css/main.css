@@ -561,9 +561,9 @@ img, svg {
   font-size: inherit;
   line-height: inherit;
   font-weight: inherit;
-  background-image: -webkit-linear-gradient(353.21deg, #FA6069 32.86%, #6058F2 91.29%);
-  background-image: -o-linear-gradient(353.21deg, #FA6069 32.86%, #6058F2 91.29%);
-  background-image: linear-gradient(96.79deg, #FA6069 32.86%, #6058F2 91.29%);
+  background-image: -webkit-linear-gradient(353.21deg, #35ADA1 32.86%, #4B04F1 91.29%);
+  background-image: -o-linear-gradient(353.21deg, #35ADA1 32.86%, #4B04F1.29%);
+  background-image: linear-gradient(96.79deg, #35ADA1 32.86%, #4B04F1 91.29%);
   -webkit-background-size: 200% 100%;
           background-size: 200% 100%;
   background-clip: text;
