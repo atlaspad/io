@@ -1,4 +1,4 @@
-<img width="1388" alt="Ekran Resmi 2024-03-01 10 55 51" src="https://github.com/AtlasPad/website-mina/assets/158029357/ed715492-6aaf-4fad-a234-40a8a3469578"># Atlaspad Landing (MINA-Mythology Theme)
+# Atlaspad Landing (MINA-Mythology Theme)
 
 Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 
