@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -2852,8 +2853,10 @@ body.body--menu-open .header__burger-lines::after {
 .integration__item::before {
   content: "🌐";
   font-size: 24px;
-  margin-top: -4px;
   margin-right: 16px;
+}
+.integration__item:nth-of-type(even) {
+  margin-left: 64px;
 }
 @media (max-width: 740px) {
   .integration__item {
@@ -2869,10 +2872,6 @@ body.body--menu-open .header__burger-lines::after {
   .integration__item + .integration__item {
     margin-top: 18px;
   }
-}
-
-.integration__item:nth-of-type(even) {
-  margin-left: 64px;
 }
 
 .integration__media {
