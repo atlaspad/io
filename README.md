@@ -5,13 +5,12 @@
 
 Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 
-* ```nvm install 21```
-
-* ```nvm use 21```
-
-* ```npm i```
-
-* ```npm run gulp```
+```
+nvm install 21
+nvm use 21
+npm i
+npm run gulp
+```
 
   
 ## [Genel] Proje Görevleri
@@ -23,7 +22,7 @@ Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 2. Proje figmaya geçirilecek. **[herkes]**
 3. Footer'daki linkler güncellenecek.
 4. En alttaki copyright metni güncellenecek.
-5. Bu projede ki JS dosyası minify edilebilirse edilecek. **[yiğid]**
+~~5. Bu projede ki JS dosyası minify edilebilirse edilecek. **[yiğid]**~~
 6. Google Analytics tracking code buraya eklenecek.
 7. Sayfa yüklendikten sonra çalışacak fonksiyonlar herhangi bir read.me dosyasında tanımlanacak.
 8. Pop-up tasarımları genel temaya uygun yapılacak.
@@ -34,7 +33,7 @@ Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 13. Sayfanın SEO performansını artıracak eklemeler yapılacak.
 14. Performans iyileştirmeleri için lazy loading gibi tekniklerin uygulanması not edilecek.
 15. Tarayıcı uyumluluğu testleri ve düzeltmeleri için notlar yer alacak.
-16. Aksesibilite ve genesis framework'ünün entegrasyonu standartlarına uygun düzenlemeler için yapılacaklar listelenecek. **[yiğid]**
+~~16. Aksesibilite ve genesis framework'ünün entegrasyonu standartlarına uygun düzenlemeler için yapılacaklar listelenecek. **[yiğid]**~~
 17. Site genelinde tutarlı bir stil rehberinin uygulanması için notlar figma'da olacak.
 18. Responsive tasarım testleri ve iyileştirmeler için notlar css yorum satırlarında bulunacak.
 19. Cross-browser test sonuçları ve ilgili düzeltmeler burada dokumente edilecek.
@@ -112,9 +111,7 @@ Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 
 257- Alt satıra başka bir partnerlik ya da kaldırılacak **(mehmet)**
 
-382- Alt satırda bulunan featured yazısı sarı, bunun rengini brandkit'e göre değiştireceğiz. **(yiğid)**
-<img width="1663" alt="Ekran Resmi 2024-03-01 10 54 41" src="https://github.com/AtlasPad/website-mina/assets/158029357/75806b3e-8263-4968-baed-1bf12169f70e">
-
+~~382- Alt satırda bulunan featured yazısı sarı, bunun rengini brandkit'e göre değiştireceğiz. **(yiğid)**~~
 
 403- Aşağıda bulunan testimonials gibi örnek twitler bulup bunlar figmaya tek tek aynı kalitede atılacak ve görsel son kalitede indirilip burada ki örnek görseller yerine değiştirilecek twitter olması elzem değil çoğu platformdan bulabildiğinizi getirmeye çalışın bunun yerine belirli uygulamalar da var oradan fake gönderi de oluşturabilirsiniz **(mehmet)**
 <img width="1663" alt="Ekran Resmi 2024-03-01 10 54 48" src="https://github.com/AtlasPad/website-mina/assets/158029357/9d488691-5373-4b44-9fe1-0c7f190459c6">
@@ -140,8 +137,7 @@ Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 633- Chatbot ile ilgili bir video hazırlanacak mini olacak ve "sağa" yerleştirilecek  sola ise
 chatbot ile ilgili başlık ve yazı yazacak **(osman nuri ve berk)**
 
-661- Documents kısmı tamamen değişecek ve bu kartlar feritin yaptığı animaysonlu kartlar ile değiştirilecek ama stilleri de dğeiştirilip minimalize edilecek **(yiğid)**
-<img width="721" alt="Ekran Resmi 2024-03-01 10 55 30" src="https://github.com/AtlasPad/website-mina/assets/158029357/cd2722ae-5453-42ad-9928-154f88636120">
+~~661- Documents kısmı tamamen değişecek ve bu kartlar feritin yaptığı animaysonlu kartlar ile değiştirilecek ama stilleri de dğeiştirilip minimalize edilecek **(yiğid)**~~
 
 736- Üst satır değişecek **(berk)**
 
