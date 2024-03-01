@@ -18,7 +18,7 @@ npm run gulp
 - Kişi seçtiği görevi yapana kadar başka görev seçemeyecek ve görevde başkasının adı varsa o görevi seçemeyecek
 - "Burada": readme.md dosyasını ifade etmektedir.
 
-1. Footer'da bulunan CTA "Join the Revolution of Mythology" olarak değiştirilecek.
+1. ~~Footer'da bulunan CTA "Join the Revolution of Mythology" olarak değiştirilecek.~~ ✅
 2. Proje figmaya geçirilecek. **[herkes]**
 3. Footer'daki linkler güncellenecek.
 4. En alttaki copyright metni güncellenecek.
