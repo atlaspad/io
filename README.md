@@ -148,6 +148,6 @@ chatbot ile ilgili başlık ve yazı yazacak **(osman nuri ve berk)**
 
 820- Gradyan renkleri değiştirilecek ve arkaplan kaldırılacak **(yiğid,berk ve mehmet)**
 
-855- Atlaspad medium hesabı çağlar beye danışılarak açılacak ve linkler değiştirilecek **(berk)**
+855- Atlaspad medium hesabı çağlar beye danışılarak açılacak ve linkler değiştirilecek **(berk)** [ Çağlar Beyden Haber Bekleniyor ] 
 
 1013- Bunları anla ve anlat **(osman nuri)**
