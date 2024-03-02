@@ -92,7 +92,6 @@ npm run gulp
 19- Alt satır görseli değiştirilecek **(mehmet ve berk)**
 
 29- Favicon'lar düzenlenecek ve partner simgeleri bu şekilde olmayacak **(herkes)**
-<img width="1663" alt="Ekran Resmi 2024-03-01 10 54 41" src="https://github.com/AtlasPad/website-mina/assets/158029357/25a0c87f-2eb0-4de0-a1c2-3d97efdaf3fe">
 
 67- Hero sectionda bulunan react logosu yerine atlas görseli mini şekilde koyulacak svg olacak **(mehmet)**
 <img width="1663" alt="Ekran Resmi 2024-03-01 10 54 48" src="https://github.com/AtlasPad/website-mina/assets/158029357/b5b360de-ccb1-46a0-99c7-40a56d0f513d">
