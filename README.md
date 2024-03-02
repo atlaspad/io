@@ -135,7 +135,7 @@ npm run gulp
 613- "Autorefresh on wallet and network change" bu cümle değişecek **(berk)**
 
 633- Chatbot ile ilgili bir video hazırlanacak mini olacak ve "sağa" yerleştirilecek  sola ise
-chatbot ile ilgili başlık ve yazı yazacak **(osman nuri ve berk)**
+chatbot ile ilgili başlık ve yazı yazacak **(baturalp ve berk)**
 
 ~~661- Documents kısmı tamamen değişecek ve bu kartlar feritin yaptığı animaysonlu kartlar ile değiştirilecek ama stilleri de dğeiştirilip minimalize edilecek **(yiğid)**~~
 
