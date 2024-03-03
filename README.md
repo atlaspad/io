@@ -1,11 +1,5 @@
 # atlaspad/landing
 
-▸Componentleri buradan çekeceksiniz repo alt satırda: https://nextui.org/
-
-▸https://github.com/nextui-org/next-app-template
-
-Author:Baturalp -> Thanks for usedapp and nextjs opensource files
-
 ## Folder structure
 
 - public/
@@ -31,6 +25,14 @@ npm run gulp
 ```
 
 We will slowly migrate to scaffolding-build and sunset gulp.
+
+<details>
+  <summary>Click here for details.</summary>
+  ▸Componentleri buradan çekeceksiniz repo alt satırda: https://nextui.org/
+
+▸https://github.com/nextui-org/next-app-template
+
+Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 
 ## [Genel] Proje Görevleri
 - Herkese yaklaşık 10 görev düşecek.
@@ -162,3 +164,4 @@ chatbot ile ilgili başlık ve yazı yazacak **(baturalp ve berk)**
 855- Atlaspad medium hesabı çağlar beye danışılarak açılacak ve linkler değiştirilecek **(berk)** [ Çağlar Beyden Haber Bekleniyor ] 
 
 1013- Bunları anla ve anlat **(osman nuri)**
+</details>
