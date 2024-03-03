@@ -1,5 +1,26 @@
 # atlaspad/landing
 
+## Getting started
+
+### Local builds
+
+Start by running npm to install the required packages. Then, run the gulp command to start the development server.
+
+```
+npm i
+npm run gulp
+```
+
+We will slowly migrate to scaffolding-build and sunset gulp.
+
+### Development server
+
+The project is automatically built by GitHub Actions, then published to Firebase.
+
+| Branch | Endpoint                          |
+| ------ | --------------------------------- |
+| `main` | https://atlaspad-landing.web.app/ |
+
 ## Folder structure
 
 - public/
@@ -15,16 +36,7 @@
 > [!WARNING]
 > Source files reside in `src` directory, where they'll be compiled to `public` directory. Make sure that your changes are made in the `src` directory.
 
-## Getting started
-
-Start by running npm to install the required packages. Then, run the gulp command to start the development server.
-
-```
-npm i
-npm run gulp
-```
-
-We will slowly migrate to scaffolding-build and sunset gulp.
+## Legacy
 
 <details>
   <summary>Click here for details.</summary>
