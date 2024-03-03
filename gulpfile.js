@@ -22,16 +22,16 @@ gulp.task('browser-sync', function () {
 		server: {
 			baseDir: 'public',
 		},
-		notify: false,
+		notify: true,
 	});
 });
 
 gulp.task('img', function () {
-	return gulp.src('src/img/**/*').pipe(gulp.dest('public/img'));
+	return gulp.src('public/img/**/*').pipe(gulp.dest('public/img'));
 });
 
 gulp.task('video', function () {
-	return gulp.src('src/video/**/*').pipe(gulp.dest('public/video'));
+	return gulp.src('public/video/**/*').pipe(gulp.dest('public/video'));
 });
 
 gulp.task('min-js', function () {
