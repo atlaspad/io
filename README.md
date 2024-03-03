@@ -1,81 +1,97 @@
-# Atlaspad Landing (MINA-Mythology Theme)
+# atlaspad/landing
+
 ▸Componentleri buradan çekeceksiniz repo alt satırda: https://nextui.org/
 
 ▸https://github.com/nextui-org/next-app-template
 
 Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 
+## Folder structure
+
+- public/
+  - index.html
+  - img/
+  - video/
+  - fonts/
+
+- src/
+  - sass/
+  - js/
+
+> [!WARNING]
+> Source files reside in `src` directory, where they'll be compiled to `public` directory. Make sure that your changes are made in the `src` directory.
+
+## Getting started
+
+Start by running npm to install the required packages. Then, run the gulp command to start the development server.
+
 ```
-nvm install 21
-nvm use 21
 npm i
 npm run gulp
 ```
 
-  
+We will slowly migrate to scaffolding-build and sunset gulp.
+
 ## [Genel] Proje Görevleri
 - Herkese yaklaşık 10 görev düşecek.
 - Kişi seçtiği görevi yapana kadar başka görev seçemeyecek ve görevde başkasının adı varsa o görevi seçemeyecek
 - "Burada": readme.md dosyasını ifade etmektedir.
 
-1. ~~Footer'da bulunan CTA "Join the Revolution of Mythology" olarak değiştirilecek.~~ ✅
-2. Proje figmaya geçirilecek. **[herkes]**
-3. Footer'daki linkler güncellenecek.
-4. En alttaki copyright metni güncellenecek.
-~~5. Bu projede ki JS dosyası minify edilebilirse edilecek. **[yiğid]**~~
-6. Google Analytics tracking code buraya eklenecek.
-7. Sayfa yüklendikten sonra çalışacak fonksiyonlar herhangi bir read.me dosyasında tanımlanacak.
-8. Pop-up tasarımları genel temaya uygun yapılacak.
-9. Sayfa içi smooth scroll için ekstra JS kodları yer alacak.
-10. Özel animasyonlar ve etkileşimler için ek JS kodları eklenecek.
-11. SVG sprite'lar için kullanılacak, sayfanın altında (footer)'da yer alacak.
-12. Dışarıdan yüklenen JS kütüphaneleri eklenecek.
-13. Sayfanın SEO performansını artıracak eklemeler yapılacak.
-14. Performans iyileştirmeleri için lazy loading gibi tekniklerin uygulanması not edilecek.
-15. Tarayıcı uyumluluğu testleri ve düzeltmeleri için notlar yer alacak.
-~~16. Aksesibilite ve genesis framework'ünün entegrasyonu standartlarına uygun düzenlemeler için yapılacaklar listelenecek. **[yiğid]**~~
-17. Site genelinde tutarlı bir stil rehberinin uygulanması için notlar figma'da olacak.
-18. Responsive tasarım testleri ve iyileştirmeler için notlar css yorum satırlarında bulunacak.
-19. Cross-browser test sonuçları ve ilgili düzeltmeler burada dokumente edilecek.
-20. Sayfa yükleme sürelerini iyileştirmek için yapılan çalışmalar burada listelenecek. **[yunus emre]**
-21. Kullanıcı deneyimini iyileştirmek için alınan geri bildirimler ve yapılan değişiklikler olacak.
-22. Güvenlikle ilgili düzenlemeler ve güncellemeler için yapılacaklar listesi yer alacak.
-26. Kullanıcı geri bildirimleri ve anketler için eklenmesi planlanan özellikler ve düzenlemeler read.me'de listelenecek.
-27. Web sitesinin farklı dillerde sunulması için yapılacak çeviri çalışmaları ve düzenlemeler burada not edilecek.
-29. Yedekleme ve veri kurtarma planları için yapılan düzenlemeler ve testler burada anlatılacak.
-30. Web sitesi ile ilgili sıkça sorulan sorular ve cevapları için bir bölüm eklenecek. **[berk]**
-31. Kullanıcı yorumları ve testimony bölümü için planlanan düzenlemeler ve eklentiler burada olacak.
-32. Blog bölümü oluşturulacak ve onun için içerik planlaması ve yayın takvimi burada ya da figma'da oluşturulacak. **[yiğid ve yunus emre]**
-34. Ürün güncellemeleri ve yeni özellikler hakkında bilgilendirme için planlanan bölümler burada listelenecek.
-35. İletişim formu ve müşteri hizmetleri ile ilgili iyileştirmeler ve eklemeler burada olacak.
-36. Kariyer sayfası ve iş ilanları için düzenlemeler ve güncellemeler burada yapılmış olacak.
-37. Partnerlik ve işbirlikleri için ayrı bir bölüm planlanıyor ve burada detaylar yer alacak.
-38. Sürdürülebilirlik ve çevre dostu uygulamalar hakkında bilgi verilecek bir bölüm eklenecek.
-47. Web sitesinin gelecekteki genişlemeleri feedback alındıkça ve gelişim yönleri için yapılan planlamalar burada olacak. **[berk]**
-48. Proje yönetimi ve iş akışı düzenlemeleri için kullanılan araçlar ve metodlar burada ve figma'da listelenecek.
-49. Kullanıcı deneyimi (UX) araştırmaları ve testleri için yapılan çalışmalar burada anlatılacak. **[berk ve mehmet]**
-50. Marka kimliği ve kurumsal kimlik çalışmaları için yapılan düzenlemeler burada yer alacak.
-59. Web sitesi için yapılan kullanılabilirlik testleri ve sonuçları burada anlatılacak.
-60. Hukuki uyumluluk ve düzenlemelerle ilgili yapılan çalışmalar ve güncellemeler burada yer alacak. **[berk]**
-61. Teknolojik altyapı ve sunucu kapasitesi ile ilgili yapılan iyileştirmeler burada listelenecek.
-62. Web sitesinin farklı platformlarda nasıl göründüğüne dair testler ve düzenlemeler burada yer alacak.
-63. Kullanıcı tarafından bildirilen hatalar ve bunların çözümü için yapılan düzenlemeler burada anlatılacak.
-64. Güvenlik sertifikaları ve SSL konfigürasyonları için yapılan güncellemeler burada belirtilecek.
-65. Erişilebilirlik standartlarına (WCAG) uyum için yapılan düzenlemeler burada listelenecek.
-66. İçerik yönetim sistemi (CMS) seçimi ve yapılandırması için yapılan çalışmalar burada anlatılacak.
-67. Dijital varlık yönetimi (DAM) sistemleri için yapılan araştırmalar ve planlamalar burada yer almayacak.
-68. Çoklu dil desteği ve lokalizasyon çalışmaları için yapılan düzenlemeler burada belirtilecek.
-69. Kullanıcı geribildirim mekanizmaları ve toplanan verilerin analizi için yapılan çalışmalar burada olacak.
-70. Web sitesi güncellemeleri ve versiyon yönetimi için yapılan planlamalar burada listelenecek.
-73. Ürün ve hizmetlerin çevrimiçi vitrinde nasıl sunulacağına dair stratejiler burada yer alacak.
-75. Web sitesi üzerinde gerçekleştirilecek etkinlikler ve kampanyalar için yapılan ön hazırlıklar burada olacak.
-77. Web sitesinin kullanıcı dostu olup olmadığını değerlendirmek için yapılan kullanıcı testleri burada listelenecek.(yapılırsa eğer)
-78. Mobil uyumluluk ve uygulama entegrasyonları için yapılan çalışmalar ve testler burada anlatılacak.
-79. Veri merkezi ve hosting hizmetleri ile ilgili yapılan değerlendirmeler ve seçimler burada belirtilecek.(hostinger go brrrr)
-80. Web sitesi tasarımı ve kullanıcı arayüzü (UI) için yapılan yenilikler ve güncellemeler burada yer alacak.
-81. Video içerikleri ve multimedya entegrasyonları için planlanan çalışmalar burada listelenecek. **[herkes]**
-82. Web sitesinin farklı cihaz ve ekran boyutlarına uygun olması için yapılan düzenlemeleri yapılırsa figma'da anlatılacak.
-88. Web sitesi ziyaretçilerine özel teklifler ve promosyonlar için yapılan planlamalar burada belirtilecek.
+1. Proje figmaya geçirilecek. **[herkes]**
+2. Footer'daki linkler güncellenecek.
+3. En alttaki copyright metni güncellenecek.
+4. Google Analytics tracking code buraya eklenecek.
+5. Sayfa yüklendikten sonra çalışacak fonksiyonlar herhangi bir read.me dosyasında tanımlanacak.
+6. Pop-up tasarımları genel temaya uygun yapılacak.
+7. Sayfa içi smooth scroll için ekstra JS kodları yer alacak.
+8.  Özel animasyonlar ve etkileşimler için ek JS kodları eklenecek.
+9.  SVG sprite'lar için kullanılacak, sayfanın altında (footer)'da yer alacak.
+10. Dışarıdan yüklenen JS kütüphaneleri eklenecek.
+11. Sayfanın SEO performansını artıracak eklemeler yapılacak.
+12. Performans iyileştirmeleri için lazy loading gibi tekniklerin uygulanması not edilecek.
+13. Tarayıcı uyumluluğu testleri ve düzeltmeleri için notlar yer alacak.
+14. Site genelinde tutarlı bir stil rehberinin uygulanması için notlar figma'da olacak.
+15. Responsive tasarım testleri ve iyileştirmeler için notlar css yorum satırlarında bulunacak.
+16. Cross-browser test sonuçları ve ilgili düzeltmeler burada dokumente edilecek.
+17. Sayfa yükleme sürelerini iyileştirmek için yapılan çalışmalar burada listelenecek. **[yunus emre]**
+18. Kullanıcı deneyimini iyileştirmek için alınan geri bildirimler ve yapılan değişiklikler olacak.
+19. Güvenlikle ilgili düzenlemeler ve güncellemeler için yapılacaklar listesi yer alacak.
+20. Kullanıcı geri bildirimleri ve anketler için eklenmesi planlanan özellikler ve düzenlemeler read.me'de listelenecek.
+21. Web sitesinin farklı dillerde sunulması için yapılacak çeviri çalışmaları ve düzenlemeler burada not edilecek.
+22. Yedekleme ve veri kurtarma planları için yapılan düzenlemeler ve testler burada anlatılacak.
+23. Web sitesi ile ilgili sıkça sorulan sorular ve cevapları için bir bölüm eklenecek. **[berk]**
+24. Kullanıcı yorumları ve testimony bölümü için planlanan düzenlemeler ve eklentiler burada olacak.
+25. Blog bölümü oluşturulacak ve onun için içerik planlaması ve yayın takvimi burada ya da figma'da oluşturulacak. **[yiğid ve yunus emre]**
+26. Ürün güncellemeleri ve yeni özellikler hakkında bilgilendirme için planlanan bölümler burada listelenecek.
+27. İletişim formu ve müşteri hizmetleri ile ilgili iyileştirmeler ve eklemeler burada olacak.
+28. Kariyer sayfası ve iş ilanları için düzenlemeler ve güncellemeler burada yapılmış olacak.
+29. Partnerlik ve işbirlikleri için ayrı bir bölüm planlanıyor ve burada detaylar yer alacak.
+30. Sürdürülebilirlik ve çevre dostu uygulamalar hakkında bilgi verilecek bir bölüm eklenecek.
+31. Web sitesinin gelecekteki genişlemeleri feedback alındıkça ve gelişim yönleri için yapılan planlamalar burada olacak. **[berk]**
+32. Proje yönetimi ve iş akışı düzenlemeleri için kullanılan araçlar ve metodlar burada ve figma'da listelenecek.
+33. Kullanıcı deneyimi (UX) araştırmaları ve testleri için yapılan çalışmalar burada anlatılacak. **[berk ve mehmet]**
+34. Marka kimliği ve kurumsal kimlik çalışmaları için yapılan düzenlemeler burada yer alacak.
+35. Web sitesi için yapılan kullanılabilirlik testleri ve sonuçları burada anlatılacak.
+36. Hukuki uyumluluk ve düzenlemelerle ilgili yapılan çalışmalar ve güncellemeler burada yer alacak. **[berk]**
+37. Teknolojik altyapı ve sunucu kapasitesi ile ilgili yapılan iyileştirmeler burada listelenecek.
+38. Web sitesinin farklı platformlarda nasıl göründüğüne dair testler ve düzenlemeler burada yer alacak.
+39. Kullanıcı tarafından bildirilen hatalar ve bunların çözümü için yapılan düzenlemeler burada anlatılacak.
+40. Güvenlik sertifikaları ve SSL konfigürasyonları için yapılan güncellemeler burada belirtilecek.
+41. Erişilebilirlik standartlarına (WCAG) uyum için yapılan düzenlemeler burada listelenecek.
+42. İçerik yönetim sistemi (CMS) seçimi ve yapılandırması için yapılan çalışmalar burada anlatılacak.
+43. Dijital varlık yönetimi (DAM) sistemleri için yapılan araştırmalar ve planlamalar burada yer almayacak.
+44. Çoklu dil desteği ve lokalizasyon çalışmaları için yapılan düzenlemeler burada belirtilecek.
+45. Kullanıcı geribildirim mekanizmaları ve toplanan verilerin analizi için yapılan çalışmalar burada olacak.
+46. Web sitesi güncellemeleri ve versiyon yönetimi için yapılan planlamalar burada listelenecek.
+47. Ürün ve hizmetlerin çevrimiçi vitrinde nasıl sunulacağına dair stratejiler burada yer alacak.
+48. Web sitesi üzerinde gerçekleştirilecek etkinlikler ve kampanyalar için yapılan ön hazırlıklar burada olacak.
+49. Web sitesinin kullanıcı dostu olup olmadığını değerlendirmek için yapılan kullanıcı testleri burada listelenecek.(yapılırsa eğer)
+50. Mobil uyumluluk ve uygulama entegrasyonları için yapılan çalışmalar ve testler burada anlatılacak.
+51. Veri merkezi ve hosting hizmetleri ile ilgili yapılan değerlendirmeler ve seçimler burada belirtilecek.(hostinger go brrrr)
+52. Web sitesi tasarımı ve kullanıcı arayüzü (UI) için yapılan yenilikler ve güncellemeler burada yer alacak.
+53. Video içerikleri ve multimedya entegrasyonları için planlanan çalışmalar burada listelenecek. **[herkes]**
+54. Web sitesinin farklı cihaz ve ekran boyutlarına uygun olması için yapılan düzenlemeleri yapılırsa figma'da anlatılacak.
+55. Web sitesi ziyaretçilerine özel teklifler ve promosyonlar için yapılan planlamalar burada belirtilecek.
 
 
 ## [Özel] Tasklar
@@ -110,8 +126,6 @@ npm run gulp
 
 257- Alt satıra başka bir partnerlik ya da kaldırılacak **(mehmet)**
 
-~~382- Alt satırda bulunan featured yazısı sarı, bunun rengini brandkit'e göre değiştireceğiz. **(yiğid)**~~
-
 403- Aşağıda bulunan testimonials gibi örnek twitler bulup bunlar figmaya tek tek aynı kalitede atılacak ve görsel son kalitede indirilip burada ki örnek görseller yerine değiştirilecek twitter olması elzem değil çoğu platformdan bulabildiğinizi getirmeye çalışın bunun yerine belirli uygulamalar da var oradan fake gönderi de oluşturabilirsiniz **(mehmet)**
 <img width="1663" alt="Ekran Resmi 2024-03-01 10 54 48" src="https://github.com/AtlasPad/website-mina/assets/158029357/9d488691-5373-4b44-9fe1-0c7f190459c6">
 
@@ -135,8 +149,6 @@ npm run gulp
 
 633- Chatbot ile ilgili bir video hazırlanacak mini olacak ve "sağa" yerleştirilecek  sola ise
 chatbot ile ilgili başlık ve yazı yazacak **(baturalp ve berk)**
-
-~~661- Documents kısmı tamamen değişecek ve bu kartlar feritin yaptığı animaysonlu kartlar ile değiştirilecek ama stilleri de dğeiştirilip minimalize edilecek **(yiğid)**~~
 
 736- Üst satır değişecek **(berk)**
 
