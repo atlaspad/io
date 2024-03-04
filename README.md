@@ -136,11 +136,11 @@ Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 239- Görmediğim hatalar ve değişiklikleri raporlama **(berk)**
 <img width="1663" alt="Ekran Resmi 2024-03-01 10 54 41" src="https://github.com/AtlasPad/website-mina/assets/158029357/37df112f-d023-43c8-94e4-0cfa9d51460e">
 
-250- Alt satıra o(1)labs logosu eklenecek **(berk ve mehmet)**
+~~250- Alt satıra o(1)labs logosu eklenecek **(berk ve mehmet)**~~ 
 
 257- Alt satıra başka bir partnerlik ya da kaldırılacak **(mehmet)**
 
-403- Aşağıda bulunan testimonials gibi örnek twitler bulup bunlar figmaya tek tek aynı kalitede atılacak ve görsel son kalitede indirilip burada ki örnek görseller yerine değiştirilecek twitter olması elzem değil çoğu platformdan bulabildiğinizi getirmeye çalışın bunun yerine belirli uygulamalar da var oradan fake gönderi de oluşturabilirsiniz **(mehmet)**
+~~403- Aşağıda bulunan testimonials gibi örnek twitler bulup bunlar figmaya tek tek aynı kalitede atılacak ve görsel son kalitede indirilip burada ki örnek görseller yerine değiştirilecek twitter olması elzem değil çoğu platformdan bulabildiğinizi getirmeye çalışın bunun yerine belirli uygulamalar da var oradan fake gönderi de oluşturabilirsiniz **(mehmet)**~~ 
 <img width="1663" alt="Ekran Resmi 2024-03-01 10 54 48" src="https://github.com/AtlasPad/website-mina/assets/158029357/9d488691-5373-4b44-9fe1-0c7f190459c6">
 
 452- O(1)labs'ın gradyan rengi değiştirilecek gradyan değil kendi brand'lerinde bulunan düz lacivert bir renk alacak. **(yunus emre)**
@@ -148,7 +148,7 @@ Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 
 455- Buradan yukarıda kalan arkaplan komple gradyan hareketli olacak bunun için baturla iletişime geç **(yunus emre ve osman nuri)**
 
-462- Bir alt satıra projede minayı neden tercih ettiğimizi tek bir cümleyle açıklayacak bir yazı yazamalısınız **(mehmet)**
+~~462- Bir alt satıra projede minayı neden tercih ettiğimizi tek bir cümleyle açıklayacak bir yazı yazamalısınız **(mehmet)**~~ 
 
 466- ~~Alt satırda bulunan buton rengi gradyan olacak **(osman nuri)**~~ ✅
 <img width="458" alt="Ekran Resmi 2024-03-01 10 55 13" src="https://github.com/AtlasPad/website-mina/assets/158029357/52012a63-70d9-40b0-80be-7947d3adc3da">
