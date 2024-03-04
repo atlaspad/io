@@ -169,7 +169,7 @@ chatbot ile ilgili başlık ve yazı yazacak **(baturalp ve berk)**
 744- Section arkaplanı yine antik yunan vari olacak aynı renk tonlarında olacak yukarıda farklı bir taskta var **(mehmet, berk ve yunus emre)**
 <img width="1388" alt="Ekran Resmi 2024-03-01 10 55 51" src="https://github.com/AtlasPad/website-mina/assets/158029357/861f78a7-7f72-4529-971d-49ff9d9d71d9">
 
-747- Truefi logosu yerine atlas simgesi koyun scroll geldiğinde mor değil gradyan yeşil mavi renklerde tepki versin **(yunus emre ve berk)**
+747- Truefi logosu yerine atlas simgesi koyun scroll geldiğinde mor değil gradyan yeşil mavi renklerde tepki versin **(osman)**
 
 820- Gradyan renkleri değiştirilecek ve arkaplan kaldırılacak **(yiğid,berk ve mehmet)**
 
