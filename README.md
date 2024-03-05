@@ -52,7 +52,7 @@ Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 - "Burada": readme.md dosyasını ifade etmektedir.
 
 1. Proje figmaya geçirilecek. **[herkes]**
-~~2. Footer'daki linkler güncellenecek. **[mehmet]**~~
+2. ~~Footer'daki linkler güncellenecek. **[mehmet]**~~
 3. En alttaki copyright metni güncellenecek.
 4. Google Analytics tracking code buraya eklenecek.
 5. Sayfa yüklendikten sonra çalışacak fonksiyonlar herhangi bir read.me dosyasında tanımlanacak.
