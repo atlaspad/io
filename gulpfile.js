@@ -49,23 +49,25 @@ gulp.task('min-js', function () {
 		.pipe(gulp.dest('public/js/min'));
 });
 
+gulp.task('html', function () {
+	return gulp.src('src/*.html').pipe(gulp.dest('public/'));
+});
+
 gulp.task('watch', function () {
 	gulp.watch('src/sass/**/*.sass', gulp.parallel('sass'));
-	// gulp.watch('src/js/*.js', gulp.parallel('min-js'));
+
 	gulp.watch('src/js/*.js').on('change', gulp.parallel('min-js'), browserSync.reload);
-	gulp.watch('src/*.html').on('change', browserSync.reload);
+	
+	gulp.watch('src/*.html').on('change', gulp.parallel('html'), browserSync.reload);
 });
 
 gulp.task('prebuild', async function () {
 	var buildCss = gulp.src('src/css/**/*').pipe(gulp.dest('public/css'));
-
 	var buildFonts = gulp.src('src/fonts/**/*').pipe(gulp.dest('public/fonts'));
-
 	var buildJs = gulp.src('src/js/**/*').pipe(gulp.dest('public/js'));
-
 	var buildHtml = gulp.src('src/*.html').pipe(gulp.dest('public/'));
 });
 
 gulp.task('build', gulp.parallel('prebuild', 'img', 'video', 'sass', 'min-js'));
 
-gulp.task('default', gulp.parallel('watch', 'browser-sync', 'sass', 'min-js'));
+gulp.task('default', gulp.series('build', gulp.parallel('watch', 'browser-sync')));
