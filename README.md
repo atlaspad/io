@@ -4,6 +4,8 @@
 
 ### Local builds
 
+To list all tasks and issues, go to [https://github.com/orgs/atlaspad/projects/3/views/1](https://github.com/orgs/atlaspad/projects/3/views/1).
+
 Start by running npm to install the required packages. Then, run the gulp command to start the development server.
 
 ```
@@ -106,74 +108,4 @@ Author:Baturalp -> Thanks for usedapp and nextjs opensource files
 53. Video içerikleri ve multimedya entegrasyonları için planlanan çalışmalar burada listelenecek. **[herkes]**
 54. Web sitesinin farklı cihaz ve ekran boyutlarına uygun olması için yapılan düzenlemeleri yapılırsa figma'da anlatılacak.
 55. Web sitesi ziyaretçilerine özel teklifler ve promosyonlar için yapılan planlamalar burada belirtilecek.
-
-
-## [Özel] Tasklar
-* **Numaralar satır sayılarını belirtmektedir.**
-* Baturalp tüm görevlerde var.
-
-1- Genesis içeride ;) **(yiğid)**
-  
-2- Çoğu svg'ler ve backgroundlar brandkit'e göre değişecek **(berk, mehmet)**
-<img width="1663" alt="Ekran Resmi 2024-03-01 10 54 31" src="https://github.com/AtlasPad/website-mina/assets/158029357/9cb29a70-414f-4fa2-925c-c33ab1a7304b">
-
-3- Girişe locomotive scroll ile gsap bir geçiş eklenecek **(osman nuri, yunus emre, berk ve mehmet)**
-
-19- Alt satır görseli değiştirilecek **(mehmet ve berk)**
-
-29- Favicon'lar düzenlenecek ve partner simgeleri bu şekilde olmayacak **(herkes)**
-
-67- Hero sectionda bulunan react logosu yerine atlas görseli mini şekilde koyulacak svg olacak **(mehmet)**
-<img width="1663" alt="Ekran Resmi 2024-03-01 10 54 48" src="https://github.com/AtlasPad/website-mina/assets/158029357/b5b360de-ccb1-46a0-99c7-40a56d0f513d">
-
-87- Bir alt satırda medium açılınca güncel medium adresi eklenecek **(aşağıda görevin replikası var)**
-
-104- Proje bittikten sonra netlify'da docs güncellenecek **(batur)**
-
-225- "Over 1.5k repos on github, used by 4.8k open source projects" cümlesi değiştirilecek **(yunus emre)**
-<img width="1663" alt="Ekran Resmi 2024-03-01 10 54 41" src="https://github.com/AtlasPad/website-mina/assets/158029357/e5919ae9-daac-470d-9b3b-78842ad2a425">
-
-239- Görmediğim hatalar ve değişiklikleri raporlama **(berk)**
-<img width="1663" alt="Ekran Resmi 2024-03-01 10 54 41" src="https://github.com/AtlasPad/website-mina/assets/158029357/37df112f-d023-43c8-94e4-0cfa9d51460e">
-
-~~250- Alt satıra o(1)labs logosu eklenecek **(berk ve mehmet)**~~ 
-
-257- Alt satıra başka bir partnerlik ya da kaldırılacak **(mehmet)**
-
-~~403- Aşağıda bulunan testimonials gibi örnek twitler bulup bunlar figmaya tek tek aynı kalitede atılacak ve görsel son kalitede indirilip burada ki örnek görseller yerine değiştirilecek twitter olması elzem değil çoğu platformdan bulabildiğinizi getirmeye çalışın bunun yerine belirli uygulamalar da var oradan fake gönderi de oluşturabilirsiniz **(mehmet)**~~ 
-<img width="1663" alt="Ekran Resmi 2024-03-01 10 54 48" src="https://github.com/AtlasPad/website-mina/assets/158029357/9d488691-5373-4b44-9fe1-0c7f190459c6">
-
-452- O(1)labs'ın gradyan rengi değiştirilecek gradyan değil kendi brand'lerinde bulunan düz lacivert bir renk alacak. **(yunus emre)**
-<img width="458" alt="Ekran Resmi 2024-03-01 10 55 06" src="https://github.com/AtlasPad/website-mina/assets/158029357/cb4b44af-2b15-4994-bc50-2a2ae1421591">
-
-455- Buradan yukarıda kalan arkaplan komple gradyan hareketli olacak bunun için baturla iletişime geç **(yunus emre ve osman nuri)**
-
-~~462- Bir alt satıra projede minayı neden tercih ettiğimizi tek bir cümleyle açıklayacak bir yazı yazamalısınız **(mehmet)**~~ 
-
-466- ~~Alt satırda bulunan buton rengi gradyan olacak **(osman nuri)**~~ ✅
-<img width="458" alt="Ekran Resmi 2024-03-01 10 55 13" src="https://github.com/AtlasPad/website-mina/assets/158029357/52012a63-70d9-40b0-80be-7947d3adc3da">
-
-520- Bu section'ın arkaplanı antik-mantik yunan ile ilgili olacak renkleri krem ve bej tonlarında olmalı ve her maddede bulunan tikler tik olmayacak maddeler bir sağ bir sola sıralanacak ve tik yerine orada bir dünya simgesi olacak (🌐) **(osman nuri)**
-
-558- Editor görselleri yerine bizim o1js kontratlarının görsellerini koymamız gerekiyor ikinci görsele de launchpad videosu üretilecek **(berk)**
-
-592- Homomorfik şifrelemeye dair bir cümle eklenecek ve solda bulunan "your balance görseli mina'nın ki oluşturulup değiştirilecek **(osman nuri, mehmet ve berk)**
-
-613- "Autorefresh on wallet and network change" bu cümle değişecek **(berk)**
-
-633- Chatbot ile ilgili bir video hazırlanacak mini olacak ve "sağa" yerleştirilecek  sola ise
-chatbot ile ilgili başlık ve yazı yazacak **(baturalp ve berk)**
-
-736- Üst satır değişecek **(berk)**
-
-744- Section arkaplanı yine antik yunan vari olacak aynı renk tonlarında olacak yukarıda farklı bir taskta var **(mehmet, berk ve yunus emre)**
-<img width="1388" alt="Ekran Resmi 2024-03-01 10 55 51" src="https://github.com/AtlasPad/website-mina/assets/158029357/861f78a7-7f72-4529-971d-49ff9d9d71d9">
-
-747- Truefi logosu yerine atlas simgesi koyun scroll geldiğinde mor değil gradyan yeşil mavi renklerde tepki versin **(osman)**
-
-820- Gradyan renkleri değiştirilecek ve arkaplan kaldırılacak **(yiğid,berk ve mehmet)**
-
-855- Atlaspad medium hesabı çağlar beye danışılarak açılacak ve linkler değiştirilecek **(berk)** [ Çağlar Beyden Haber Bekleniyor ] 
-
-1013- Bunları anla ve anlat **(osman nuri)**
 </details>
