@@ -54,7 +54,7 @@ gulp.task('html', function () {
 });
 
 gulp.task('watch', function () {
-	gulp.watch('src/sass/**/*.sass', gulp.parallel('sass'));
+	gulp.watch('src/sass/**/*.sass', gulp.parallel('sass'), browserSync.reload);
 
 	gulp.watch('src/js/*.js').on('change', gulp.parallel('min-js'), browserSync.reload);
 	
