@@ -2022,37 +2022,6 @@ body.body--menu-open .header__burger-lines::after {
   }
 }
 
-.copyrights__text {
-  font-size: 14px;
-  line-height: 16px;
-  color: inherit;
-}
-
-.copyrights__link {
-  width: 100px;
-  color: inherit;
-  -webkit-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-}
-
-.copyrights__link--large {
-  width: 200px;
-}
-
-.copyrights__link:hover svg path {
-  fill: #88f2e7; /* Rengi burada belirtin */
-}
-
-.copyrights__link:focus-visible {
-  color: #ffffff;
-}
-
-.copyrights__link:active {
-  color: #ffffff;
-  opacity: 0.9;
-}
-
 .section--hero {
   padding-top: 216px;
   padding-bottom: 60px;
