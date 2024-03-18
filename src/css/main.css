@@ -3775,6 +3775,7 @@ body.body--menu-open .header__burger-lines::after {
 }
 
 .resources__picture {
+  
   grid-column: 2/3;
   grid-row: 1/3;
 }
