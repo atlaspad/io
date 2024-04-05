@@ -213,13 +213,6 @@ const AddOne = ZkProgram({
                 publicInput.assertEquals(Field(0));
             },
         },
-        step: {
-            privateInputs: [SelfProof],
-            method(publicInput: Field, earlierProof: SelfProof<Field, void>) {
-                earlierProof.verify();
-                earlierProof.publicInput.add(1).assertEquals(publicInput);
-            },
-        },
     },
 });`,
   ],
