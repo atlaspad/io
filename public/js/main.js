@@ -217,7 +217,7 @@ const typeNpmTerminal = new Typed(npmTerminal.querySelector('.terminal__prompt')
   cursorChar: '|',
 });
 
-const typeBoilerplateTerminal = new Typed(boilerplaçteTerminal.querySelector('.terminal__prompt'), {
+const typeBoilerplateTerminal = new Typed(boilerplateTerminal.querySelector('.terminal__prompt'), {
   strings: [
     `import { Field, SelfProof, ZkProgram } from "o1js";
 const AddOne = ZkProgram ( {
