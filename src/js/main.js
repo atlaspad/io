@@ -203,7 +203,7 @@ const terminalsObserverOptions = {
 const typeNpmTerminal = new Typed(npmTerminal.querySelector('.terminal__prompt'), {
   strings: [
     `import { Field, SelfProof, ZkProgram } from "o1js";
-const AddOne = ZkProgram({
+const AddOne = ZkProgram ( {
     name: "add-one-example",
     publicInput: Field,
     methods: {
