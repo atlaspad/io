@@ -202,6 +202,23 @@ const terminalsObserverOptions = {
 
 const typeNpmTerminal = new Typed(npmTerminal.querySelector('.terminal__prompt'), {
   strings: [
+    `
+  SPDX-License-Identifier: MIT
+  pragma solidity 0.8.20;
+  contract Atlaspad is ERC20, ERC20Burnable, Ownable {
+    constructor() ERC20("AtlasToken", "AP") {
+        _mint(msg.sender, 1000000000 * 10 ** decimals());
+    }
+}`,
+  ],
+
+  typeSpeed: 40,
+  onStringTyped: (pos, self) => showTerminalResult(npmTerminal),
+  cursorChar: '|',
+});
+
+const typeBoilerplateTerminal = new Typed(boilerplaçteTerminal.querySelector('.terminal__prompt'), {
+  strings: [
     `import { Field, SelfProof, ZkProgram } from "o1js";
 const AddOne = ZkProgram ( {
     name: "add-one-example",
@@ -216,13 +233,6 @@ const AddOne = ZkProgram ( {
     },
 });`,
   ],
-  typeSpeed: 40,
-  onStringTyped: (pos, self) => showTerminalResult(npmTerminal),
-  cursorChar: '|',
-});
-
-const typeBoilerplateTerminal = new Typed(boilerplateTerminal.querySelector('.terminal__prompt'), {
-  strings: ['yarn create eth-app dapp'],
   typeSpeed: 45,
   onStringTyped: (pos, self) => showTerminalResult(boilerplateTerminal),
   cursorChar: '|',
