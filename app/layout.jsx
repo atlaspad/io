@@ -1,3 +1,4 @@
+import Scripts from "@/components/Scripts";
 import "./globals.sass";
 
 export const metadata = {
@@ -13,7 +14,10 @@ export default function RootLayout({ children }) {
 				<link rel="icon" type="image/png" href="/img/atlasLogo.svg" />
 				<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 			</head>
-			<body>{children}</body>
+			<body className="body">
+				{children}
+				<Scripts />
+			</body>
 		</html>
 	);
 }
