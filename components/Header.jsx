@@ -4,6 +4,8 @@ import { useEffect } from "react";
 
 export default function Header() {
 	useEffect(() => {
+		// Background
+
 		const header = body.querySelector("header");
 
 		const headerOffset = header.clientHeight;
@@ -19,8 +21,30 @@ export default function Header() {
 
 		document.addEventListener("scroll", handleHeaderStyles);
 
+		// Menu
+
+		const headerBurgerButton = header.querySelector(".header__burger");
+
+		const handleHeaderBurgerButtonClick = (event) => {
+			let eventTarget = event.target;
+			if (eventTarget == headerBurgerButton) {
+				body.classList.toggle("body--menu-open");
+			}
+			if (
+				eventTarget.classList.contains("header__logo") ||
+				eventTarget.classList.contains("header__link") ||
+				eventTarget.classList.contains("header__social-link") ||
+				eventTarget.classList.contains("header__docs")
+			) {
+				body.classList.remove("body--menu-open");
+			}
+		};
+
+		header.addEventListener("click", handleHeaderBurgerButtonClick);
+
 		return () => {
 			document.removeEventListener("scroll", handleHeaderStyles);
+			header.removeEventListener("click", handleHeaderBurgerButtonClick);
 		};
 	}, []);
 
