@@ -1,6 +1,12 @@
 "use client";
 
+import { useEffect } from "react";
+
 export default function AboutSection() {
+	useEffect(() => {
+		window.Marquee3k.init();
+	}, []);
+
 	return (
 		<section id="testimonials_about" className="section section--testimonials">
 			<div className="container">
