@@ -1,6 +1,29 @@
 "use client";
 
+import { useEffect } from "react";
+
 export default function Header() {
+	useEffect(() => {
+		const header = body.querySelector("header");
+
+		const headerOffset = header.clientHeight;
+
+		const handleHeaderStyles = () => {
+			if (window.scrollY < headerOffset) {
+				header.classList.remove("header--fixed");
+			}
+			if (window.scrollY >= headerOffset) {
+				header.classList.add("header--fixed");
+			}
+		};
+
+		document.addEventListener("scroll", handleHeaderStyles);
+
+		return () => {
+			document.removeEventListener("scroll", handleHeaderStyles);
+		};
+	}, []);
+
 	return (
 		<header className="header">
 			<div className="container">
